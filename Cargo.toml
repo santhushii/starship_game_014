@@ -1,0 +1,12 @@
+[package]
+name = "starship_game_014_bevy"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "starship_game_0.14_bevy"
+path = "src/main.rs"
+
+[dependencies]
+bevy = "0.14"
+rand = "0.8"
